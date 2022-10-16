@@ -266,10 +266,10 @@ top: 870px;
 
 
 
-   .second_left_space{
-    background-image: url(../images/young_man_second_space.jpg);
-    background-repeat: no-repeat;
-    position: absolute;
+.second_left_space{
+ background-image: url(../images/young_man_second_space.jpg);
+ background-repeat: no-repeat;
+ position: absolute;
 width: 473.24px;
 height: 700px;
 left: 167.76px;
@@ -451,7 +451,7 @@ color: #2076FF;
       animation: pulsate 1s ease-in-out;
     }
   
-
+/* First Section */
 .three_space_section_first{
   position: absolute;
   width: 240px;
@@ -466,7 +466,7 @@ color: #2076FF;
   position: absolute;
   width: 240px;
   height: 165px;
-  background: url(../images/three_space/Image\ \(1\).jpg);
+  background: url(../images/three_space/Image\ \(2\).jpg);
   border-radius: 12px;
 }
 #three_space h3{
@@ -483,10 +483,568 @@ color: #2076FF;
   color: #101130;
 }
 
-.three_space_section_first span>figure{
-position: absolute;
-width: 22px;
-height: 22px;
-background-image: url(../images/three_space/icon/user.png);
-top: 300px;
+.person_icon img{
+margin-top: 230px;
+display: inline-block;
 }
+.person_icon p{
+  margin-left: 25px;
+  margin-top: -22px;
+}
+.clock_icon img{
+  position:absolute;
+  margin-left: 145px;
+  margin-top: -17px;
+  display: inline-block;
+  }
+.clock_icon p{
+  position:absolute;
+
+    margin-left: 170px;
+    margin-top: -17px;
+  }
+
+.add_to_cart{
+text-align: center;
+text-decoration:none;
+position: absolute;
+padding: 5PX;
+width: 240px;
+height: 20px;
+border: 1px solid #2076FF;
+border-radius: 7px;
+top: 350px;
+  }
+    
+.add_to_cart:hover {
+    animation: pulsate 1s ease-in-out;
+}
+  
+.add_to_cart img{
+  position:absolute;
+  margin-left: -70px;
+}
+  
+.add_to_cart_a{
+position: absolute;
+text-align: center;
+text-decoration: none;
+margin-left: -30px;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 22px;
+letter-spacing: -0.01em;
+color: #2076FF;
+
+}  
+    
+    /* Second Section */
+    .three_space_section_second{
+      position: absolute;
+      width: 240px;
+      height: 420px;
+      margin-top: 40px;
+      margin-left: 410px;
+      background: #FFFFFF;
+      box-shadow: 0px 20px 35px -5px rgba(0, 0, 0, 0.03);
+      border-radius: 14px;
+    }
+    .three_space_section_second_figure{
+      position: absolute;
+      width: 240px;
+      height: 165px;
+      background: url(../images/three_space/Image\ \(1\).jpg);
+      border-radius: 12px;
+    }
+   
+    
+    .person_icon img{
+    margin-top: 230px;
+    display: inline-block;
+    }
+    .person_icon p{
+      margin-left: 25px;
+      margin-top: -22px;
+    }
+    .clock_icon img{
+      position:absolute;
+      margin-left: 145px;
+      margin-top: -17px;
+      display: inline-block;
+      }
+    .clock_icon p{
+      position:absolute;
+    
+        margin-left: 170px;
+        margin-top: -17px;
+      }
+    
+    .add_to_cart{
+    text-align: center;
+    text-decoration:none;
+    position: absolute;
+    padding: 5PX;
+    width: 240px;
+    height: 20px;
+    border: 1px solid #2076FF;
+    border-radius: 7px;
+    top: 350px;
+      }
+        
+    .add_to_cart:hover {
+        animation: pulsate 1s ease-in-out;
+    }
+      
+    .add_to_cart img{
+      position:absolute;
+      margin-left: -70px;
+    }
+      
+    .add_to_cart_a{
+    position: absolute;
+    text-align: center;
+    text-decoration: none;
+    margin-left: -30px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    letter-spacing: -0.01em;
+    color: #2076FF;
+    
+    }  
+
+
+    /* Three section */
+
+    .three_space_section_three{
+      position: absolute;
+      width: 240px;
+      height: 390px;
+      margin-top: 40px;
+      margin-left:800px;
+      background: #FFFFFF;
+      box-shadow: 0px 20px 35px -5px rgba(0, 0, 0, 0.03);
+      border-radius: 14px;
+    }
+    .three_space_section_three_figure{
+      position: absolute;
+      width: 240px;
+      height: 165px;
+      background: url(../images/three_space/Image.jpg);
+      border-radius: 12px;
+    }
+   
+    
+    .person_icon img{
+    margin-top: 230px;
+    display: inline-block;
+    }
+    .person_icon p{
+      margin-left: 25px;
+      margin-top: -22px;
+    }
+    .clock_icon img{
+      position:absolute;
+      margin-left: 145px;
+      margin-top: -17px;
+      display: inline-block;
+      }
+    .clock_icon p{
+      position:absolute;
+    
+        margin-left: 170px;
+        margin-top: -17px;
+      }
+    
+    .add_to_cart{
+    text-align: center;
+    text-decoration:none;
+    position: absolute;
+    padding: 5PX;
+    width: 240px;
+    height: 20px;
+    border: 1px solid #2076FF;
+    border-radius: 7px;
+    top: 350px;
+      }
+        
+    .add_to_cart:hover {
+        animation: pulsate 1s ease-in-out;
+    }
+      
+    .add_to_cart img{
+      position:absolute;
+      margin-left: -70px;
+    }
+      
+    .add_to_cart_a{
+    position: absolute;
+    text-align: center;
+    text-decoration: none;
+    margin-left: -30px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    letter-spacing: -0.01em;
+    color: #2076FF;
+    
+    }  
+
+    /* -----------------------End Three Space ---------------------- */
+
+    /* ----------------------------------------------------------- */
+
+    /* -----------------------Start Fourth Space  ---------------------- */
+#fourth_space{
+  position: absolute;
+width: 1160px;
+height: 620px;
+left: 140px;
+top: 2633px;
+}
+#fourth_space h1{
+  position: absolute;
+  width: 476px;
+  height: 112px;
+  left: 60px;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 44px;
+  line-height: 56px;
+  letter-spacing: -0.01em;
+  color: #101130;
+}
+#fourth_space p{
+position: absolute;
+width: 447px;
+height: 90px;
+left: 60px;
+top: 130px;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 30px;
+color: #606176;
+}
+.get_started_fourth_space{
+position: absolute;
+width: 200px;
+height: 62px;
+left: 60px;
+top: 250px;
+}
+.get_started_fourth_space_a{
+position: absolute;
+width: 150px;
+height: 62px;
+text-decoration: none;
+padding: 15px;
+background: #3BB77E;
+border-radius: 16px;
+  position: absolute;
+  height: 22px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+  letter-spacing: -0.01em;
+  color: #FEF4F1;
+  text-align: center;
+}
+.get_started_fourth_space_a:hover {
+  animation: pulsate 1s ease-in-out;
+}
+
+
+.fourth_space_right{
+position: absolute;
+width: 589px;
+height: 620px;
+left: 711px;
+
+}
+.video{
+position: absolute;
+top: 100px;
+width: 530px;
+height: 360px;
+left: -40px;
+background: url(../images/fourth_space/video.jpg);
+border-radius: 18px;
+}
+
+.video_under{
+  width: 545px;
+  height: 565px;
+  left: 755px;
+  
+  background: #F6F5FA;
+  border-radius: 18px;
+}
+/* -----------------------End Fourth Space ---------------------- */
+
+ /* ------------------------------------------------------------------------- */
+
+ /* -----------------------Start Fifth Space  ---------------------- */
+
+
+#fifth_space{
+position: absolute;
+width: 1105px;
+height: 495px;
+left: 167px;
+top: 3383px;
+}
+.fifth_space_left h1 {
+position: absolute;
+width: 476px;
+height: 112px;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 44px;
+line-height: 56px;
+letter-spacing: -0.01em;
+color: #101130;
+}
+.fifth_space_left h3{
+  position: absolute;
+width: 329px;
+height: 56px;
+top: 140px;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 22px;
+line-height: 28px;
+color: #101130;
+
+}
+.fifth_space_left p{
+position: absolute;
+width: 449px;
+height: 120px;
+top: 220px;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 30px;
+color: #606176;
+}
+.wilson{
+position: absolute;
+width: 310px;
+height: 67px;
+top: 370px;
+}
+.wilson .wilson_thai{
+background-image: url(../images/fifth_space/Ellipse\ 38.jpg);
+width: 60px;
+height: 60px;
+display: inline-block;
+}
+.wilson_name{
+position: absolute;
+width: 123px;
+height: 67px;
+top: 10px;
+left: 75px;
+}
+
+.wilson_name h4{
+width: 200px;
+height: 24px;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 24px;
+letter-spacing: -0.01em;
+
+color: #101130;
+}
+.wilson_name h6{
+position: absolute;
+width: 101px;
+height: 16px;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 16px;
+color: #606176;
+}
+
+/* ----------Milena ----------------*/
+
+
+.left_figure{
+  position: absolute;
+  width: 28px;
+  height: 23px;
+  left: 900px;
+  color: #161b75;
+  background-image: url(../images/fifth_space/icon/Vector\ 8.jpg);
+}
+.left_figure:hover {
+  animation: pulsate 1s ease-in-out;
+}
+.right_figure{
+  position: absolute;
+  width: 28px;
+  height: 23px;
+  left: 1000px;
+  color: #161b75;
+  background-image: url(../images/fifth_space/icon/Vector\ 7.jpg);
+}
+.right_figure:hover {
+  animation: pulsate 1s ease-in-out ;
+}
+.fifth_space_right h3{
+position: absolute;
+width: 329px;
+height: 56px;
+top: 140px;
+left: 800px;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 22px;
+line-height: 28px;
+color: #101130;
+
+}
+.fifth_space_right p{
+position: absolute;
+width: 449px;
+height: 120px;
+top: 220px;
+left: 800px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 30px;
+color: #606176;
+}
+.milena{
+position: absolute;
+width: 310px;
+height: 67px;
+top: 370px;
+left: 800px;
+
+}
+.milena .milena_belmar{
+background-image: url(../images/fifth_space/Ellipse\ 381.jpg);
+width: 60px;
+height: 60px;
+display: inline-block;
+left: 800px;
+
+}
+.milena_name{
+position: absolute;
+width: 123px;
+height: 67px;
+top: 10px;
+
+left: 75px;
+
+}
+
+.milena_name h4{
+width: 200px;
+height: 24px;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 24px;
+letter-spacing: -0.01em;
+
+color: #101130;
+}
+.milena_name h6{
+position: absolute;
+width: 101px;
+height: 16px;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 16px;
+color: #606176;
+}
+
+ /* -----------------------End Fifth Space  ---------------------- */
+
+/* ------------------------------------------------------------------------- */
+
+ /* -----------------------Start Fifth Space  ---------------------- */
+
+#sixth_space{
+position: absolute;
+width: 1105px;
+height: 495px;
+left: 167px;
+top: 3383px;
+ }
+#sixth_space h1{
+  position: absolute;
+  width: 621px;
+  height: 112px;
+  top: 550px;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 44px;
+  line-height: 56px;
+  letter-spacing: -0.01em;
+  color: #101130;
+ }
+ .upgrade_now{
+  box-sizing: border-box;
+
+position: absolute;
+
+left: 1122px;
+top: 560px;
+
+border-radius: 12px;
+  }
+  .upgrade_now_a{
+border: 1px solid #2076FF;
+
+  position: absolute;
+  width: 160px;
+height: 60px;
+  text-decoration: none;
+  padding: 15px;
+  border-radius: 16px;
+    position: absolute;
+    height: 22px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    letter-spacing: -0.01em;
+    color: #2076FF;
+    text-align: center;
+  }
+  .upgrade_now_a:hover {
+    animation: pulsate 1s ease-in-out;
+  }
+  
